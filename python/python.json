@@ -1,0 +1,15 @@
+{
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoSearchPaths": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.formatting.blackArgs": [
+        "--maxline-length",
+        "120"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": true
+}

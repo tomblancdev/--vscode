@@ -1,6 +1,11 @@
 {
     "[python]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.tabSize": 4
     },
     "python.analysis.autoImportCompletions": true,
     "python.analysis.autoSearchPaths": false,
@@ -11,5 +16,10 @@
         "120"
     ],
     "python.formatting.provider": "black",
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--max-line-length",
+        "120"
+    ],
+    "python.linting.enabled": true
 }

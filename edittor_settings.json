@@ -1,0 +1,6 @@
+{
+    "window.zoomLevel": 1,
+    "editor.inlineSuggest.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active"
+}
